@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMS552 - Pos Malaysia Berhad | SAP ERP System</title>
+  <meta name="description" content="IMS552 Information Systems Management Group Assignment on Pos Malaysia Berhad SAP ERP System by UiTM Puncak Perdana students.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="brand-text">
+          <span>Pos Malaysia Berhad</span>
+          <span class="brand-sub">IMS552 Group Assignment</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="aainii.html">Aainii</a></li>
+        <li><a href="zahid.html">Zahid</a></li>
+        <li><a href="aisyah.html">Aisyah</a></li>
+        <li><a href="aimi.html">Aimi</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">IMS552 Information Systems Management</div>
+      <h1>Pos Malaysia <span class="highlight">Berhad</span></h1>
+      <p>A comprehensive study on the SAP Enterprise Resource Planning (ERP) system implemented at Pos Malaysia Berhad, one of Malaysia's leading postal and logistics service providers.</p>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <a href="#members" class="btn btn-primary">Meet the Team ↓</a>
+        <a href="#backend" class="btn btn-outline">View System Architecture</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY STATISTICS -->
+  <section class="section" id="stats">
+    <div class="container">
+      <div class="stats-row fade-in">
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="200">0</span></div>
+          <div class="stat-label">Active Users</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="15000">0</span></div>
+          <div class="stat-label">Employees on Payroll</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="100000" data-prefix="~">0</span></div>
+          <div class="stat-label">Invoices Generated</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="11" data-suffix=" TB">0</span></div>
+          <div class="stat-label">Database Size</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="165">0</span></div>
+          <div class="stat-label">System Interfaces</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT THE SYSTEM -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">About the System</span>
+        <div class="section-divider"></div>
+        <h2>SAP Enterprise Resource Planning</h2>
+        <p>The central information system of Pos Malaysia Berhad, implemented around 2013 to centralise HR and Finance operations.</p>
+      </div>
+
+      <div class="grid-3 fade-in">
+        <div class="card">
+          <div class="card-icon gold">📊</div>
+          <h3>SAP ERP Platform</h3>
+          <p>Global #1 ERP system used by Pos Malaysia to integrate Human Resource and Financial operations across all branches natively.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon blue">🗄️</div>
+          <h3>RDBMS SQL Database</h3>
+          <p>Stores 11 terabytes of structured data including employee records, financial transactions, and operational logs securely.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon green">🔗</div>
+          <h3>165 Integrations</h3>
+          <p>Connects seamlessly with 165 internal and external systems via APIs and FTP to ensure data flows automatically without manual entry.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon purple">🖥️</div>
+          <h3>SAP GUI Frontend</h3>
+          <p>200 active users access the system through SAP's desktop application using strict role-based access control.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon cyan">☁️</div>
+          <h3>Hybrid Infrastructure</h3>
+          <p>Runs on 7 backend servers combining physical on-premise hardware and AWS Cloud for high availability and disaster recovery.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon orange">💰</div>
+          <h3>RM1.6M Annual Cost</h3>
+          <p>Managed by a core IT team of 8 staff and external vendors, with licensing costs of roughly RM1.6 million annually.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BACK-END ARCHITECTURE -->
+  <section class="section" id="backend" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">System Architecture</span>
+        <div class="section-divider"></div>
+        <h2>Back-End of SAP ERP System</h2>
+        <p>The complete back-end architecture showing where SAP sits within Pos Malaysia's organisational infrastructure.</p>
+      </div>
+      <div class="fade-in" style="text-align: center;">
+        <img src="assets/images/backend_sap_erp.png" alt="Back-End of SAP ERP System Architecture Diagram" style="max-width: 800px; width: 100%; border-radius: 16px; border: 1px solid var(--border-glass); box-shadow: var(--shadow-xl);">
+      </div>
+    </div>
+  </section>
+
+  <!-- GROUP MEMBERS -->
+  <section class="section" id="members">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Our Team</span>
+        <div class="section-divider"></div>
+        <h2>Group Members</h2>
+        <p>CDIM262 5C, UiTM Puncak Perdana. Prepared for Dr Hasnah Binti Hashim.</p>
+      </div>
+
+      <div class="grid-4 fade-in">
+        <!-- Aainii -->
+        <div class="member-card">
+          <img class="member-avatar" src="assets/images/Aainii.png" alt="Nur 'Aainii Nabilah" style="object-fit: cover; background: var(--gradient-gold);">
+          <h3>Nur 'Aainii Nabilah</h3>
+          <p class="matric">2025119807</p>
+          <div class="sections">
+            <span class="section-badge">1.0</span>
+            <span class="section-badge">6.0</span>
+            <span class="section-badge">7.0</span>
+            <span class="section-badge">8.0</span>
+          </div>
+          <a href="aainii.html" class="btn btn-primary btn-sm">View Sections →</a>
+        </div>
+        <!-- Zahid -->
+        <div class="member-card">
+          <img class="member-avatar" src="assets/images/Zahid.png" alt="Muhammad Zahid Hanafi" style="object-fit: cover; background: var(--gradient-blue);">
+          <h3>Muhammad Zahid Hanafi</h3>
+          <p class="matric">2025127713</p>
+          <div class="sections">
+            <span class="section-badge">2.0</span>
+            <span class="section-badge">3.0</span>
+            <span class="section-badge">4.0</span>
+            <span class="section-badge">5.0</span>
+          </div>
+          <a href="zahid.html" class="btn btn-primary btn-sm">View Sections →</a>
+        </div>
+        <!-- Aisyah -->
+        <div class="member-card">
+          <img class="member-avatar" src="assets/images/Aisyah.png" alt="Nur Aisyah Binti Rosli" style="object-fit: cover; background: var(--gradient-green);">
+          <h3>Nur Aisyah Binti Rosli</h3>
+          <p class="matric">2025180601</p>
+          <div class="sections">
+            <span class="section-badge">9.0</span>
+            <span class="section-badge">10.0</span>
+            <span class="section-badge">11.0</span>
+          </div>
+          <a href="aisyah.html" class="btn btn-primary btn-sm">View Sections →</a>
+        </div>
+        <!-- Aimi -->
+        <div class="member-card">
+          <img class="member-avatar" src="assets/images/Aimi.png" alt="Nurul Aimi Umairoh" style="object-fit: cover; background: var(--gradient-purple);">
+          <h3>Nurul Aimi Umairoh</h3>
+          <p class="matric">2025162077</p>
+          <div class="sections">
+            <span class="section-badge">12.0</span>
+            <span class="section-badge">13.0</span>
+            <span class="section-badge">14.0</span>
+            <span class="section-badge">15.0</span>
+          </div>
+          <a href="aimi.html" class="btn btn-primary btn-sm">View Sections →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSE INFO -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Course Details</span>
+        <div class="section-divider"></div>
+        <h2>IMS552 Information Systems Management</h2>
+      </div>
+      <div class="grid-3 fade-in">
+        <div class="card" style="text-align: center;">
+          <div class="card-icon gold" style="margin: 0 auto 16px;">🏫</div>
+          <h4>University</h4>
+          <p>Universiti Teknologi MARA (UiTM)<br>Kampus Puncak Perdana, Shah Alam</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card-icon blue" style="margin: 0 auto 16px;">📚</div>
+          <h4>Programme</h4>
+          <p>Bachelor of Information Science (Hons)<br>Information Systems Management (CDIM262)</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card-icon green" style="margin: 0 auto 16px;">👩‍🏫</div>
+          <h4>Lecturer</h4>
+          <p>Dr Hasnah Binti Hashim<br>Group CDIM262 5C</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">IMS552 - Pos Malaysia Berhad</p>
+      <p>Group Assignment | CDIM262 5C | UiTM Puncak Perdana | 2025</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

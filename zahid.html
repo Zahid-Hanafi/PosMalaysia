@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zahid - Sections 2.0, 3.0, 4.0, 5.0 | IMS552 Pos Malaysia</title>
+  <meta name="description" content="Sections by Muhammad Zahid Hanafi - Organization Background, Data Used, List of IS, and Types of IS for Pos Malaysia Berhad.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="brand-text">
+          <span>Pos Malaysia Berhad</span>
+          <span class="brand-sub">IMS552 Group Assignment</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aainii.html">Aainii</a></li>
+        <li><a href="zahid.html" class="active">Zahid</a></li>
+        <li><a href="aisyah.html">Aisyah</a></li>
+        <li><a href="aimi.html">Aimi</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="hero-badge">Sections 2.0, 3.0, 4.0, 5.0</div>
+      <h1>Muhammad Zahid Hanafi</h1>
+      <p class="subtitle">2025127713</p>
+    </div>
+  </section>
+
+  <!-- 2.0 ORGANIZATION BACKGROUND -->
+  <section class="section" id="section-2">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 2.0</span>
+        <div class="section-divider"></div>
+        <h2>Organization Background</h2>
+        <p>A deep dive into the history, structure, and massive scale of Malaysia's national postal and logistics provider.</p>
+      </div>
+
+      <div class="grid-2 fade-in">
+        <div class="card" style="border-left: 3px solid var(--accent-gold);">
+          <h4 style="color: var(--accent-gold); margin-bottom: 12px;">🏢 Company Overview</h4>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;"><strong>National Provider:</strong> The sole national postal and premier logistics service provider in Malaysia.</li>
+            <li style="margin-bottom: 8px;"><strong>Beyond Letters:</strong> Evolved from standard mail delivery to comprehensive courier services, warehousing, e-commerce support, and digital solutions.</li>
+            <li style="margin-bottom: 8px;"><strong>Massive Network:</strong> Operates through a widespread network of more than 3,500 physical touchpoints and agencies across the country.</li>
+          </ul>
+        </div>
+        <div class="card" style="border-left: 3px solid var(--accent-blue);">
+          <h4 style="color: var(--accent-blue); margin-bottom: 12px;">🌟 Vision & Mission</h4>
+          <p style="margin-bottom: 12px;"><strong>Vision:</strong> "We Deliver. We Connect. We Improve Lives."<br><span style="font-size: 0.9rem; color: var(--text-secondary);">Demonstrating ambition to be more than a simple postal provider by making customers' lives richer.</span></p>
+          <p><strong>Mission:</strong> "Passionate about building trust to connect lives and businesses for a better tomorrow."<br><span style="font-size: 0.9rem; color: var(--text-secondary);">Focusing heavily on the positive socioeconomic impact Pos Malaysia brings to local communities.</span></p>
+        </div>
+      </div>
+
+      <!-- Company History Timeline -->
+      <div class="fade-in" style="margin-top: 40px;">
+        <h3 style="margin-bottom: 24px; text-align: center;">2.2 History</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="year">Early 1800s & 1957</div>
+            <h4>Postal Beginnings</h4>
+            <p>Initiated in the British Straits Settlements (Penang, Malacca, Singapore) and continued as Jabatan Perkhidmatan Pos after Malaysia's 1957 independence.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">1992 & 2001</div>
+            <h4>Corporatisation & Listing</h4>
+            <p>Shifted from a government agency to a commercially oriented company in 1992. Successfully listed publicly on the KLSE in August 2001.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">2021 & 2022</div>
+            <h4>Modern Transformation</h4>
+            <p>Launched the "Transform the Core" initiative in 2021, leading to a massive digital migration of critical infrastructure to the AWS cloud in 2022.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Revenue Chart -->
+      <div class="fade-in" style="margin-top: 48px;">
+        <h3 style="margin-bottom: 8px; text-align: center;">2.3 Revenue Structure</h3>
+        <p style="text-align: center; margin-bottom: 24px;">Total RM1.87 billion (FY2023)</p>
+        <div class="chart-container">
+          <canvas id="revenueChart" height="250"></canvas>
+        </div>
+      </div>
+
+      <!-- Org Chart -->
+      <div class="fade-in" style="margin-top: 48px;">
+        <h3 style="margin-bottom: 24px; text-align: center;">2.6 Functional Departments</h3>
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon gold">👥</div>
+            <h4>Human Resource (HR)</h4>
+            <p>Manages recruitment, performance, and processes payroll for 15,000 staff nationwide via the SAP HCM module.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon blue">💰</div>
+            <h4>Finance Department</h4>
+            <p>Handles the generation of 100,000 invoices per cycle, tax compliance, and general ledgers via the SAP FI/CO module.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon green">🖥️</div>
+            <h4>IT / Systems</h4>
+            <p>A specialized core team of 8 staff managing the overall hardware infrastructure, servers, and network cybersecurity.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon cyan">📦</div>
+            <h4>Logistics Operations</h4>
+            <p>Oversees massive parcel sorting and delivery routing via the Courier Management System and mobile integration.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon purple">🤝</div>
+            <h4>Customer Service</h4>
+            <p>Tracks customer feedback, handles complaints, and resolves support tickets managed centrally via the CRM system.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3.0 DATA USED -->
+  <section class="section" id="section-3" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 3.0</span>
+        <div class="section-divider"></div>
+        <h2>Data Stored (11 Terabytes)</h2>
+        <p>The system stores massive volumes of structured operational data accumulated over a decade.</p>
+      </div>
+
+      <div class="grid-3 fade-in">
+        <div class="card">
+          <div class="card-icon cyan">👤</div>
+          <h3>Customer Data</h3>
+          <p>Detailed customer profiles, billing addresses, and historical service subscriptions managed primarily by CRM and SAP.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon orange">📦</div>
+          <h3>Logistics Data</h3>
+          <p>Real-time tracking numbers, shipment weights, and delivery routes for over 26 million parcels processed annually.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon gold">💳</div>
+          <h3>Financial Data</h3>
+          <p>Hundreds of thousands of accounts receivable/payable ledgers, detailed invoice data, and strict departmental budgets.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon purple">👥</div>
+          <h3>Employee Data</h3>
+          <p>Confidential payroll numbers, sick leave tracking, and EA tax records for the 15,000 active employees.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon green">⚙️</div>
+          <h3>Operational Data</h3>
+          <p>Background system logs, CPU/memory utilization metrics, and query response times monitored constantly by the IT team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4.0 LIST OF INFORMATION SYSTEMS -->
+  <section class="section" id="section-4">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 4.0</span>
+        <div class="section-divider"></div>
+        <h2>Key Information Systems</h2>
+        <p>Out of more than 200 active internal systems, we focused on the 6 most critical to business operations.</p>
+      </div>
+
+      <div class="grid-3 fade-in">
+        <div class="card" style="border-top: 3px solid var(--accent-gold);">
+          <div class="card-icon gold">🏢</div>
+          <h3>SAP ERP</h3>
+          <p>The core HR & Finance backbone utilized by 200 active users, linking all major departments natively.</p>
+        </div>
+        <div class="card" style="border-top: 3px solid var(--accent-blue);">
+          <div class="card-icon blue">🧾</div>
+          <h3>Billing System</h3>
+          <p>A specialized system that automates the generation of 100,000 invoices and syncs them directly into SAP ledgers.</p>
+        </div>
+        <div class="card" style="border-top: 3px solid var(--accent-green);">
+          <div class="card-icon green">📦</div>
+          <h3>Courier System</h3>
+          <p>Provides live parcel tracking compatible with the mobile scanning devices used by ground delivery staff.</p>
+        </div>
+        <div class="card" style="border-top: 3px solid var(--accent-purple);">
+          <div class="card-icon purple">🤝</div>
+          <h3>CRM System</h3>
+          <p>The central hub for customer relationship management, tracking all support tickets and service histories.</p>
+        </div>
+        <div class="card" style="border-top: 3px solid var(--accent-cyan);">
+          <div class="card-icon cyan">📊</div>
+          <h3>Big Data Analytics</h3>
+          <p>A high-level strategic reporting tool that pulls millions of records to help top management forecast business trends.</p>
+        </div>
+        <div class="card" style="border-top: 3px solid var(--accent-orange);">
+          <div class="card-icon orange">🏪</div>
+          <h3>POS System</h3>
+          <p>The retail counter software deployed at post offices nationwide for walk-in customer transactions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5.0 TYPES OF INFORMATION SYSTEMS -->
+  <section class="section" id="section-5" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 5.0</span>
+        <div class="section-divider"></div>
+        <h2>System Classification</h2>
+        <p>Classifying the 6 key systems based on their specific functional level within the organization.</p>
+      </div>
+
+      <div class="accordion-group fade-in">
+        <div class="accordion-item open">
+          <div class="accordion-header">
+            <h4>5.1 SAP ERP (Enterprise Resource Planning)</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Class:</strong> Both an <em>Operational IS</em> and a <em>Management IS</em>.</li>
+                <li style="margin-bottom: 6px;"><strong>Role:</strong> Manages heavy daily HR calculation tasks while simultaneously providing highly structured, high-level reports for management oversight.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>5.2 Billing System</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Class:</strong> <em>Transaction Processing System (TPS)</em>.</li>
+                <li style="margin-bottom: 6px;"><strong>Role:</strong> Designed to automate and record extremely high volumes of routine, daily transactions specifically for mass corporate invoicing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>5.3 Courier Management System</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Class:</strong> <em>Operational Information System (OIS)</em>.</li>
+                <li style="margin-bottom: 6px;"><strong>Role:</strong> Focused intensely on day-to-day ground operations, specifically tracking the physical movement of mail and parcels from A to B.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>5.4 Customer Relationship Management (CRM)</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Class:</strong> <em>Management Information System (MIS)</em>.</li>
+                <li style="margin-bottom: 6px;"><strong>Role:</strong> Manages customer data, interaction records, and service histories to help improve customer satisfaction.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>5.5 Big Data Analytics System</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Class:</strong> <em>Decision Support System (DSS)</em>.</li>
+                <li style="margin-bottom: 6px;"><strong>Role:</strong> Analyzes millions of records to provide structured insights that guide executives in long-term strategic planning.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>5.6 Point of Sale (POS) System</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Class:</strong> <em>Transaction Processing System (TPS)</em>.</li>
+                <li style="margin-bottom: 6px;"><strong>Role:</strong> Processes thousands of walk-in counter transactions at post office branches daily (e.g., bill payments, stamps).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">IMS552 - Pos Malaysia Berhad</p>
+      <p>Muhammad Zahid Hanafi Bin Mohamad Azian | 2025127713</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var ctx = document.getElementById('revenueChart');
+      if (ctx) {
+        new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: ['Postal (RM1,086M)', 'Logistics (RM312M)', 'Aviation (RM303M)', 'Others (RM168M)'],
+            datasets: [{
+              data: [1086, 312, 303, 168],
+              backgroundColor: ['#fbbf24', '#3b82f6', '#10b981', '#8b5cf6'],
+              borderColor: '#0a0e1a',
+              borderWidth: 3,
+              hoverOffset: 10
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { position: 'bottom', labels: { color: '#94a3b8', font: { family: 'Inter', size: 12 } } },
+              title: { display: false }
+            }
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

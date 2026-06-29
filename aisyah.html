@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisyah - Sections 9.0, 10.0, 11.0 | IMS552 Pos Malaysia</title>
+  <meta name="description" content="Sections by Nur Aisyah - Hardware & Software Configuration, IS Problems, and Performance of IS for Pos Malaysia Berhad.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="brand-text">
+          <span>Pos Malaysia Berhad</span>
+          <span class="brand-sub">IMS552 Group Assignment</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aainii.html">Aainii</a></li>
+        <li><a href="zahid.html">Zahid</a></li>
+        <li><a href="aisyah.html" class="active">Aisyah</a></li>
+        <li><a href="aimi.html">Aimi</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="hero-badge">Sections 9.0, 10.0, 11.0</div>
+      <h1>Nur Aisyah Binti Rosli</h1>
+      <p class="subtitle">2025180601</p>
+    </div>
+  </section>
+
+  <!-- 9.0 HARDWARE AND SOFTWARE CONFIGURATION -->
+  <section class="section" id="section-9">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 9.0</span>
+        <div class="section-divider"></div>
+        <h2>Hardware and Software Configuration</h2>
+        <p>An overview of the massive technical infrastructure required to support Pos Malaysia's daily national operations.</p>
+      </div>
+
+      <div class="grid-2 fade-in">
+        <!-- Hardware -->
+        <div class="card" style="border-top: 3px solid var(--accent-gold);">
+          <h3 style="color: var(--accent-gold); margin-bottom: 16px;">🖥️ 9.1 Hardware Configuration</h3>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;"><strong>Hybrid Infrastructure:</strong> Initially fully on-premise, now utilizing a mix of physical data centre servers and AWS cloud hosting.</li>
+            <li style="margin-bottom: 8px;"><strong>Robust Network:</strong> Relies on high-speed Local Area Networks (LAN) internally and a secure Wide Area Network (WAN) to link nationwide branches.</li>
+            <li style="margin-bottom: 8px;"><strong>System Reliability:</strong> Heavily reliant on High Availability (HA) configurations and redundant backup servers to prevent catastrophic data loss during outages.</li>
+          </ul>
+
+          <div style="margin-top: 20px;">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr><th>Component</th><th>Details</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Backend Servers</td><td>7 dedicated servers (Production + Non-production)</td></tr>
+                  <tr><td>Cloud Integration</td><td>Amazon Web Services (AWS) migrated in 2022</td></tr>
+                  <tr><td>On-Premise</td><td>Physical hardware maintained in secure data centres</td></tr>
+                  <tr><td>Network Topology</td><td>LAN (HQ internal) + WAN (nationwide branches)</td></tr>
+                  <tr><td>Data Protection</td><td>High Availability (HA) failover + Disaster Recovery</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Software -->
+        <div class="card" style="border-top: 3px solid var(--accent-blue);">
+          <h3 style="color: var(--accent-blue); margin-bottom: 16px;">💿 9.2 Software Configuration</h3>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;"><strong>Core ERP System:</strong> The SAP ERP platform (introduced in 2013) serves as the primary software backbone connecting all HR and Finance activities.</li>
+            <li style="margin-bottom: 8px;"><strong>Massive Database:</strong> Employs an RDBMS SQL database to structure and store 11 terabytes of historical and operational data.</li>
+            <li style="margin-bottom: 8px;"><strong>Deep Integration:</strong> Seamlessly communicates with 165 other internal systems (like logistics and CRM) instantly via APIs.</li>
+          </ul>
+
+          <div style="margin-top: 20px;">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr><th>Component</th><th>Details</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Core Software</td><td>SAP ERP System (customized since 2013)</td></tr>
+                  <tr><td>Primary Modules</td><td>SAP HCM (HR) + SAP FI/CO (Finance)</td></tr>
+                  <tr><td>User Frontend</td><td>SAP GUI (specialized desktop application)</td></tr>
+                  <tr><td>Database Tech</td><td>RDBMS SQL (11 Terabytes capacity)</td></tr>
+                  <tr><td>API Integration</td><td>165 active system interfaces connected</td></tr>
+                  <tr><td>Active Monitoring</td><td>CPU usage, memory loads, IOPS, and query response</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10.0 INFORMATION SYSTEM PROBLEMS -->
+  <section class="section" id="section-10" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 10.0</span>
+        <div class="section-divider"></div>
+        <h2>Information System Problems</h2>
+        <p>A massive system inevitably comes with massive challenges that require constant management.</p>
+      </div>
+
+      <div class="accordion-group fade-in">
+        <div class="accordion-item open">
+          <div class="accordion-header">
+            <h4>10.1 Current Issues and Challenges</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <div class="grid-2">
+                <div class="card" style="border-left: 3px solid var(--accent-red);">
+                  <h4 style="color: var(--accent-red);">🔴 Overwhelming Complexity</h4>
+                  <p>The SAP system is not user-friendly for beginners. It requires employees to undergo intensive training and hold professional SAP certification just to perform their daily tasks efficiently.</p>
+                </div>
+                <div class="card" style="border-left: 3px solid var(--accent-orange);">
+                  <h4 style="color: var(--accent-orange);">🟠 Slow Peak Performance</h4>
+                  <p>Due to the sheer volume of data, the system experiences noticeable "overload" delays during peak workload periods, specifically during month-end payroll or mass billing cycles.</p>
+                </div>
+                <div class="card" style="border-left: 3px solid var(--accent-gold);">
+                  <h4 style="color: var(--accent-gold);">🟡 Extremely High Costs</h4>
+                  <p>Licensing and routine maintenance cost approximately RM1.6 million annually. Furthermore, applying system updates is a delicate, highly expensive process requiring external vendors.</p>
+                </div>
+                <div class="card" style="border-left: 3px solid var(--accent-purple);">
+                  <h4 style="color: var(--accent-purple);">🟣 Cybersecurity Vulnerabilities</h4>
+                  <p>As the central repository for the nation's sensitive financial and employee data, the SAP database is a constant, high-value target for external cyber threats and ransomware.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>10.2 Root Causes of the Problems</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 12px;"><strong>System Architecture Flaws:</strong> The deeply interconnected modules mean that a technical error in HR can cause a "domino effect" that crashes the Finance module as well.</li>
+                <li style="margin-bottom: 12px;"><strong>Massive Transaction Workload:</strong> Attempting to process up to 100,000 invoices concurrently pushes the physical server hardware beyond its optimal capacity, causing slowdowns.</li>
+                <li style="margin-bottom: 12px;"><strong>Specialized Skills Gap:</strong> Employees are required to possess a very rare combination of both IT proficiency and deep accounting knowledge to use the system without making errors.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4>10.3 Direct Impact on Performance</h4>
+            <span class="accordion-arrow">▼</span>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul style="padding-left: 20px;">
+                <li style="margin-bottom: 12px;"><strong>Reduced Efficiency:</strong> Workflow bottlenecks during peak processing times force employees to wait for the system to catch up, delaying their daily tasks.</li>
+                <li style="margin-bottom: 12px;"><strong>Service Quality Drops:</strong> Slow system responses across the integrated API network mean that real-time customer tracking updates may be delayed.</li>
+                <li style="margin-bottom: 12px;"><strong>Hampered Decision-Making:</strong> When system errors occur or the database slows down, managers face critical delays in receiving accurate, real-time reporting data.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11.0 PERFORMANCE OF THE INFORMATION SYSTEM -->
+  <section class="section" id="section-11">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">Section 11.0</span>
+        <div class="section-divider"></div>
+        <h2>Performance of the Information System</h2>
+        <p>Despite the challenges, the system's performance remains highly beneficial to the organization's growth.</p>
+      </div>
+
+      <!-- Performance Stats -->
+      <div class="stats-row fade-in">
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="100000" data-prefix="~">0</span></div>
+          <div class="stat-label">Invoices Per Cycle</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="15000">0</span></div>
+          <div class="stat-label">Payroll Employees</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="200">0</span></div>
+          <div class="stat-label">Active Users</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><span class="counter" data-target="165">0</span></div>
+          <div class="stat-label">System Interfaces</div>
+        </div>
+      </div>
+
+      <div class="grid-2 fade-in" style="margin-top: 32px;">
+        <div class="card" style="border-left: 3px solid var(--accent-green);">
+          <h3 style="color: var(--accent-green); margin-bottom: 12px;">11.1 High System Efficiency</h3>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;">Fully automates the complex payroll for 15,000 staff, completing a job in minutes that would otherwise take weeks manually.</li>
+            <li style="margin-bottom: 8px;">Handles massive, continuous data scaling without requiring Pos Malaysia to hire additional clerical manpower.</li>
+            <li style="margin-bottom: 8px;">Drastically reduces data duplication because information entered by HR is instantly available to Finance.</li>
+          </ul>
+        </div>
+        <div class="card" style="border-left: 3px solid var(--accent-blue);">
+          <h3 style="color: var(--accent-blue); margin-bottom: 12px;">11.2 High System Effectiveness</h3>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;">Creates a seamless, undeniable link between Human Resources operations and corporate Financial ledgers.</li>
+            <li style="margin-bottom: 8px;">Provides executives with highly accurate, real-time strategic reports to base million-dollar decisions upon.</li>
+            <li style="margin-bottom: 8px;">Effectively minimises human accounting errors by relying on strict, automated pricing and calculation rules.</li>
+          </ul>
+        </div>
+        <div class="card" style="border-left: 3px solid var(--accent-purple);">
+          <h3 style="color: var(--accent-purple); margin-bottom: 12px;">11.3 User Satisfaction Levels</h3>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;">Once fully trained, staff report very high satisfaction due to the convenience of having everything in a centralized, single-platform design.</li>
+            <li style="margin-bottom: 8px;">Users highly appreciate the speed of automated tasks and the complete elimination of tedious manual paperwork.</li>
+            <li style="margin-bottom: 8px;"><strong>Drawback:</strong> The initial learning curve is notoriously steep, frustrating new hires until they receive formal certification.</li>
+          </ul>
+        </div>
+        <div class="card" style="border-left: 3px solid var(--accent-gold);">
+          <h3 style="color: var(--accent-gold); margin-bottom: 12px;">11.4 Operational Contribution</h3>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 8px;">It has served reliably as the firm's primary digital backbone since 2013, supporting a decade of corporate growth.</li>
+            <li style="margin-bottom: 8px;">Greatly enhances daily operational efficiency by allowing departments to collaborate across a unified dataset.</li>
+            <li style="margin-bottom: 8px;">Ensures that ground logistics and customer service teams have the financial backing necessary for reliable service.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Performance Chart -->
+      <div class="fade-in" style="margin-top: 40px;">
+        <div class="chart-container">
+          <canvas id="performanceChart" height="300"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">IMS552 - Pos Malaysia Berhad</p>
+      <p>Nur Aisyah Binti Rosli | 2025180601</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var ctx = document.getElementById('performanceChart');
+      if (ctx) {
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Active Users', 'System Interfaces', 'Backend Servers', 'IT Team Members', 'Database (TB)'],
+            datasets: [{
+              label: 'SAP ERP System Metrics',
+              data: [200, 165, 7, 8, 11],
+              backgroundColor: ['#fbbf24', '#3b82f6', '#10b981', '#8b5cf6', '#06b6d4'],
+              borderColor: '#0a0e1a',
+              borderWidth: 2,
+              borderRadius: 8
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+              legend: { display: false },
+              title: {
+                display: true,
+                text: 'SAP ERP System Performance Metrics',
+                color: '#f1f5f9',
+                font: { family: 'Outfit', size: 16, weight: 600 },
+                padding: { bottom: 20 }
+              }
+            },
+            scales: {
+              x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', font: { family: 'Inter' } } },
+              y: { grid: { display: false }, ticks: { color: '#f1f5f9', font: { family: 'Inter', size: 12 } } }
+            }
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
